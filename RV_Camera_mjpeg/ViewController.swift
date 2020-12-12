@@ -34,6 +34,13 @@ class ViewController: UIViewController {
         let url = URL(string: "http://192.168.0.115:8080/?action=stream")
         stream.contentURL = url
         stream.play() // Play the stream
+        
+        //moved to background?
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.addObserver(self, selector: #selector(appMovedToBackground), name: UIApplication.didEnterBackgroundNotification, object: nil)
+        
+        notificationCenter.addObserver(self, selector: #selector(appMovedToForeground), name: UIApplication.willEnterForegroundNotification, object: nil)
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,4 +52,15 @@ class ViewController: UIViewController {
         return UIStatusBarStyle.lightContent
         //return UIStatusBarStyle.default   // Make dark again
     }
+    
+    @objc func appMovedToBackground() {
+        //print("App moved to Background!")
+        stream.stop()
+    }
+    
+    @objc func appMovedToForeground() {
+        //print("App moved to ForeGround!")
+        stream.play()
+    }
+    
 }
