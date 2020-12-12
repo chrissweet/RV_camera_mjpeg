@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  RV_Camera_mjpeg
+//  RV_mjpeg_camera
 //
-//  Created by Christopher Sweet on 12/9/20.
+//  Created by Christopher Sweet on 12/12/20.
 //
 
 import UIKit
@@ -33,4 +33,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

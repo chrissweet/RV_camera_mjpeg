@@ -13,6 +13,7 @@
 		BA93C4DE2581B7C1003EE46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93C4DC2581B7C1003EE46F /* Main.storyboard */; };
 		BA93C4E02581B7C1003EE46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93C4DF2581B7C1003EE46F /* Assets.xcassets */; };
 		BA93C4E32581B7C1003EE46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA93C4E12581B7C1003EE46F /* LaunchScreen.storyboard */; };
+		BA93C4EC2581B7F7003EE46F /* MJPEGStreamLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93C4EB2581B7F7003EE46F /* MJPEGStreamLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA93C4DF2581B7C1003EE46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA93C4E22581B7C1003EE46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA93C4E42581B7C1003EE46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA93C4EB2581B7F7003EE46F /* MJPEGStreamLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJPEGStreamLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		BA93C4D52581B7C1003EE46F /* RV_Camera_mjpeg */ = {
 			isa = PBXGroup;
 			children = (
+				BA93C4EB2581B7F7003EE46F /* MJPEGStreamLib.swift */,
 				BA93C4D62581B7C1003EE46F /* AppDelegate.swift */,
 				BA93C4D82581B7C1003EE46F /* SceneDelegate.swift */,
 				BA93C4DA2581B7C1003EE46F /* ViewController.swift */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA93C4DB2581B7C1003EE46F /* ViewController.swift in Sources */,
+				BA93C4EC2581B7F7003EE46F /* MJPEGStreamLib.swift in Sources */,
 				BA93C4D72581B7C1003EE46F /* AppDelegate.swift in Sources */,
 				BA93C4D92581B7C1003EE46F /* SceneDelegate.swift in Sources */,
 			);
