@@ -1,4 +1,4 @@
-# Aboput RV_camera_mjpeg
+# About RV_camera_mjpeg
 MJPEG camera with OpenCV annotation for RV reversing lines
 
 Viewing app for mjpeg-streamer camera that allows the user to add reversing distance lines to a raspberry pi camera 
